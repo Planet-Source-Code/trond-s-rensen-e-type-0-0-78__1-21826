@@ -1,0 +1,26 @@
+that you can have this Tips dialog shown each time this program starts by checking the box below?
+that you can press Ctrl+D to insert todays date, and Ctrl+T to insert the current time?
+that you can press F7 to insert todays date and time?
+that you can duplicate the active window by pressing Ctrl+U or by selecting Duplicate Window from the Window menu?
+that you can add multiple files and folders to your project by selecting Add Files from the popupmenu in the Projects window?
+that you can hide the status bar by un-checking Status Bar on the View menu?
+that you can show the tips dialog by clicking Show Tips on the Help menu?
+that you can close all open documents by clicking Close All on the File menu or on the document Tabs?
+that you can insert a symbol by clicking Symbol... on the Insert menu?
+that you can find the next match when using Find by pressing F3?
+that you can revert the current document to its saved state by clicking Revert To Saved on the File menu?
+that you can view the clipboard contents by selecting Clipboard from the View menu?
+that you can compare the contents of two textfiles by selecting Compare from the Search menu?
+that E-Type has a built-in multiclipboard utility you can open by selecting Multiclip from the View menu?
+that you can open files by dropping them on a free space in the editor?
+that you can start E-Type by dropping files on its icon?
+that you can customize the toolbar by dobbleclicking it or select Customize Toolbar from the Tools menu?
+that you can restore the toolbar by dobbleclicking it or select Customize Toolbar from the Tools menu and pressing reset on the toolbarwizard?
+that you can encrypt\decrypt textfiles by selecting Crypto from the Tool menu?
+that you can cycle throug all open ducuments by pressing Ctrl+Tab or Ctrl+Shift+Tab?
+that you can search and mark all occurrences of a word in a document from the Find Dialog?
+
+
+
+
+

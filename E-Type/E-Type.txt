@@ -1,0 +1,148 @@
+Status:
+Linenumbers do not scroll together with scrollbar. 
+File Association is working. Restart of windows is needed to se the canged icons 
+Still working on Document tabs. 
+
+Document index is giving me a headache. Must sort it out since many functions rely on this..
+
+Find files from find dialog working. Still lacks visual working.
+
+So little time, so much still remains to do. Will I ever get this product finished?
+
+Todo: (In order of importance)
+- Multiple undo/redo
+- When changing font type and color, all open windows must be updated with the new settings
+- Revert To Saved file function enabled even if document is not saved
+- History in filemneu not always working. Check if "UpdateFileMenu" or "GetRecentFiles" is the righ sub to use!
+- Startup functions from Options dialogen not yet finished. Is it possible to set tab size in rtf?.
+- Closing of sidebar somtimes opens empty windows. The old document index bug?
+- Dobbleclicking on files on sidebar explorer somethimes opens the new file in an already existing window. 
+- Rightclick chooses documenttab would have been nice
+- Restore of minimized windows not repainting windows
+- History menu on sidebar explorer allways has an empty line on top which I named "History"
+- Visual work on scroll bars and margins on print preview
+- Sidebar explorer not showing all files when all files selected
+- Save all function not saving all documents
+                     
+
+Done:
+- Now Sorts text both Ascending og Descending
+- Undo and redo buttons on toolbar unable to call private sub from frmNotepad.
+- SelNextWindow and SelPrevWindow not working with deleted windows
+- Select window on toolbar gets the Find dialog as a document window
+- Sort rutine  deletes top line in sorted text
+- Sidebar explorer not showing hidden files
+
+In next version:
+- Implement ftp load and save
+- Active line coloring would have been nice
+- Saving MultiClip clips to file for later use
+- Load system files function
+- Autofunction to sett font after doc extensions i.e. .nfo files opens with terminal font
+
+
+Credits:
+FileSearch Class Writen By $$$$$ (c) FiveBucksEntertainment
+Document preview function By Herman Liu
+Remove all duplicate items in a listbox function by Jono Spiro
+SideBar design inspired by Abstract Thumbs by Kelly S. Elias
+File Info built on File Information Demonstration Project from www.jelsoft.com/vbw
+ClipBoard Viewer by VISUAL BASIC BRASIL - Profissional, http://www.vbbrasil.com
+File/Drive list built on ListView Sample by Mike Maddox, Microsoft Corporation
+Read and save TreeView from textfile functions from SRINIS WORLD, haisrini@email.com
+File Association function by Stefan Hoffmann (Suicide Soft)
+Print Setup functions and idea from Joel Isenstadt and Herman Liu
+Unlimited undos and redos By Bart Lorang
+Custom shortcut keys in menues by Dan Redding - Blue Knot Software
+Sort routine from www.vb-helper.com, author unknown
++ many functions from Planet SourceCode and www.vb-helper.com
++ help from newsgroups by JimmyT, Emoreau, Steve (netgod), macu, alokanant 
+
+
+History: Starting on build .73
+
+0.0.73
+- Function in page setup now checks if margins is bigger than 70% of selected papersize
+  If so they are automaticaly adjusted to biggest possible (70%) of selected papersize.
+- Changing font type from Tools Font menu now stores the settings to registry so all new
+  documents get the same font.
+- Load file function changed so nontext files is shown in editor as garbled. Erlier they where not 
+  shown at all (empty window).
+
+0.0.74
+- Page setup now shows a thumb of the selected paper size and orientation from the selected
+  printer settings showing the margins you set or the settings read from registry.
+- Find next og Find previous buttons on toolbar now working
+- Duplicate window function implemented.
+- Undo og redo menues made. No code behind them yet. Undo (ctrl +Z) workes once since
+  it is built in to the VB Rich Edit Controll.
+
+0.0.75
+- Added errorhandling if no printer is installed
+- Now shows selected printer on page setup window bar
+
+0.0.76
+- Added Unlimited undo and redo function. A few bugs remains to be tracked down.
+- Fixed a minor visual bug in page setup. The margins was not shown right when changing from
+  potrait to landscape or vica versa.
+- New icons on toolbar and added hottracking
+
+0.0.77
+- Fixed bug in Compare file function causing program to crash if the texboxes was empty
+- Added "Save Internal Project Group Now" menu choise in sidebar projects
+- The Find dialog now sets focus to the find combobox when it loads
+- Added "Find and Mark" menuitem in Search menu
+- Added "Find File(s)" menuiten in search menu
+- SelNextWindow and SelPrevWindow now working with deleted windows
+  in the document array.
+- Fixed bug with Select window on toolbar. It got the Find dialog and the splash screen as a document 
+  window
+- Added Revert To Saved menuitem in File menu
+ 
+0.0.78
+- Added new look on all dialogs with sidelogo with rotated text
+- When opening a already open document the user is informed. If the open document has changed
+  the user is asked if he/she wants to revert to the new dcument
+- New sort routine. Faster and works without the use of a extra listbox for sorting.
+- Sidebar explorer now showing hidden and system files
+
+ 0.0.79
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
